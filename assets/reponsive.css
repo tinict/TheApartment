@@ -2,6 +2,8 @@
 @media (max-width: 992px) {
     .main__left{
         display: none;
+        z-index: 1;
+        width: 80%;
     }
     .main{
         width: 100% !important;
@@ -29,5 +31,38 @@
     .form-contact .form .btn-send,
     .Rules .btn-subscribe{
         width: 100%;
+    }
+    .header-mobile{
+        height: 50px;
+        width: 100%;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-mobile h1{
+        line-height: 50px;
+        padding-left: 20px;
+        font-weight: 300;
+    }
+    .header-mobile i{
+        line-height: 50px;
+        padding-right: 20px;
+        font-size: 25px;
+    }
+    .bgr{
+        display: none;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 1;
+    }
+}
+
+@media (min-width: 992px){
+    .main__left{
+        display: block;
     }
 }
