@@ -1,0 +1,371 @@
+/* Reset css */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* css main */
+
+.main{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+.main__left{
+    width: 18%;
+    background-color: #f1f1f1;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+}
+.main__right{
+    width: 82%;
+    margin-left: 260px;
+    border-right: 1px solid #000;
+}
+
+/* css container left */
+
+.container-left{
+    padding: 16px;
+}
+
+.container-left .title{
+    font-family: "Raleway",Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+}
+
+.container-left .title h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+}
+
+.container-left .title span{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/* CSS form */
+
+.form{
+    margin-top: 50px;
+}
+
+.form .item{
+    margin: 16px 0 16px;
+}
+
+.form .item .header-item{
+    margin: 10px 0 10px 0;
+}
+
+.form input{
+    margin-top: 16px;
+    height: 40px;
+    padding: 5px;
+    width: 100%;
+}
+
+/* css button search */
+
+.button-search{
+    background-color: #4CAF50;
+    width: 100%;
+    height: 38px;
+    padding: 10px;
+}
+
+.button-search:hover{
+    background-color: #ccc;
+    color: #000 !important;
+    cursor: pointer;
+}
+
+.button-search:hover a{
+    color: #000 !important;
+}
+
+.button-search a{
+    color: #ffffff;
+}
+
+.button-search a span{
+    margin-left: 10px;
+}
+
+/* css submenu */
+.sub-menu{
+    margin-top: 32px;
+}
+
+.sub-menu .btn-item:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.btn-item a{
+    color: #000;
+}
+
+.btn-item{
+    height: 50px;
+    padding: 18px 16px 8px 16px;
+}
+
+/* css main__right */
+.container-right{
+    padding: 8px 16px 16px 32px;
+}
+
+.container-right .title{
+    width: 100%;
+    color: #4CAF50;
+}
+
+.container-right .title h1{
+    width: 100%;
+    font-weight: 400;
+    font-family: "Raleway", Arial,sans-serif;
+    font-size: 180%;
+    margin: 10px 0 10px 0;
+}
+
+.slide-show{
+    width: 100%;
+}
+
+.show-img{
+    width: 100%;
+    position: relative;
+}
+
+.show-img .show{
+    width: 100%;
+    height: 80%;
+}
+
+.select-img{
+    display: flex;
+}
+
+.select-img img{
+    width: 100%;
+    opacity: 0.5;
+}
+
+.box-select{
+    margin-right: 16px;
+    margin-top: 8px;
+}
+
+.box-select:last-child{
+    margin-right: 0 !important;
+}
+
+.type-room{
+    width: 125px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    text-align: center;
+}
+
+.type-room span{
+    color: #ffffff;
+    font-weight: lighter;
+    line-height: 50px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* css the space */
+
+.the-space{
+    width: 100%;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+.the-space .title-space{
+    margin: 10px 0 10px 0;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #000;
+}
+
+.column-space-left .item-space{
+    display: flex;
+    margin: 18px 0 18px 0;
+    font-size: 20px;
+}
+
+.column-space-left .item-space i{
+    margin-right: 8px;
+}
+
+.column-space-right .item-space{
+    margin: 18px 0 18px 0;
+    font-size: 18px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.container-space{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-space .container-left{
+    padding-right: 100px;
+    display: flex;
+}
+
+.container-space .container-right{
+    display: flex;
+    padding-right: 100px;
+}
+
+.container-space .container-right .column-space-right .item-space{
+    margin: 18px 0 18px 0;
+    font-size: 16px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* css extra info */
+
+.Extra-Info{
+    width: 100%;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+.Extra-Info .title{
+    font-size: 12px;
+    color: #000;
+}
+
+.Extra-Info .card{
+    margin: 10px 0 20px 0;
+}
+
+.Extra-Info p{
+    line-height: 32px;
+}
+
+/* css Rules */
+
+.Rules{
+    width: 100%;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+.Rules .title{
+    font-size: 12px;
+    color: #000;
+}
+
+.Rules p{
+    line-height: 32px;
+}
+
+.Rules .btn-subscribe{
+    height: 40px;
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 12px 10px 10px 10px;
+    width: 30%;
+    margin: 10px 0 10px 0;
+}
+.Rules .decription{
+    margin: 10px 0 10px;
+}
+.Rules .btn-subscribe a{
+    color: #fff;
+}
+
+.Rules .btn-subscribe:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.Rules .btn-subscribe:hover a{
+    color: #000;
+}
+
+/* css contact */
+
+.contact{
+    width: 100%;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.contact h1{
+    color: #000;
+}
+
+.contact .contact-info{
+    display: flex;
+}
+
+.contact .contact-info .item{
+    margin: 10px 15px 10px 0;
+}
+
+.form-contact .form{
+    margin: 0 0 32px 0 !important;
+}
+
+
+.form-contact .form .btn-send{
+    height: 40px;
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 12px 10px 10px 10px;
+    width: 30%;
+    margin: 10px 0 10px 0;
+}
+
+.form-contact .form .btn-send a{
+    color: #fff;
+}
+
+.form-contact input{
+    font-size: 16px;
+}
+
+.form-contact .form .btn-send:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.form-contact .form .btn-send:hover a{
+    color: #000;
+}
+
+/* css footer */
+
+.footer{
+    width: 100%;
+    padding: 16px 16px 0 0;
+    font-family: font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.footer p{
+    font-weight: 100;
+}
+
+.footer p a{
+    font-size: small;
+    text-decoration: underline;
+    color: #000;
+}
